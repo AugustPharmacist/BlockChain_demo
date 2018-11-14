@@ -11,7 +11,7 @@ func main() {
 	//1.打开数据库（如果没有会创建）
 	//110
 	//rwx
-	db, err := bolt.Open("src/BlockChain_demo/BlockChain_demov3/demo/test.db", 0600, nil)
+	db, err := bolt.Open("src/BlockChain_demo/BlockChain_demo_v3/demo/test.db", 0600, nil)
 
 	if err != nil {
 		log.Panic(err)
